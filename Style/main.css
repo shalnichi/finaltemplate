@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+.cardproperty {
+  border: 1px solid black;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.body {
+  font-family: "roboto", serif;
+  background-color: darkblue;
+}
+
+.input-group {
+  width: 50%;
+}/*# sourceMappingURL=main.css.map */

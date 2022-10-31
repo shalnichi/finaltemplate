@@ -1,0 +1,13 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.body {
+  font-family: "roboto", serif;
+  background-color: darkblue;
+}
+
+.input-group {
+  width: 50%;
+}/*# sourceMappingURL=global.css.map */
