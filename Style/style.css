@@ -41,6 +41,7 @@ badge{
     margin-top: 120px;
 }
 
+.nav-link:hover .dropdown-menu{display: block;}
 .nav-link{
     margin: 0 25px;
 }
@@ -503,16 +504,7 @@ color: white;
     transition: 0.5s;
   }
 
-  .slidecard .product1{
-    min-width: 20%;
-    height: 100%;
-    background: #29aaff;
-    margin:  0 15px  0 0;
-    border-radius: 10px;
-    position: relative;
-    left: 0;
-    transition: 0.5s;
-  }
+  
 
   .detail>p{
     font-size: 18px;
@@ -561,16 +553,16 @@ color: white;
   } */
   p.star{
     margin: 5px auto;
-      width: 70%;
+      width: 85%;
       font-size: 20px;
       color: #165581;
-      padding-left: 63px;
+      padding-left: 55px;
   }
 
   .btndetailproduct{
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    padding: 40px 0;
   }
   @media (max-width: 768px) {
     .text h1{
@@ -710,4 +702,181 @@ margin-top: -10px !important;
 
 .mb-4{
   margin-bottom: 2.5rem!important;
+}
+
+
+/* ==============about================= */
+.infoweb{
+  margin-top: 50px;
+}
+
+.imgabout>img{
+  max-width: 100%;
+}
+
+.heading-section-about {
+  margin-bottom: 0;
+  color: #165581;
+  font-size: 18px;
+}
+
+.a-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading-section-about>p{
+  text-align: justify;
+}
+
+.heading-section-about>p:nth-child(4){
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.heading-section-about>p a{
+  width: 225px;
+}
+
+.vmtweb{
+  margin-top: 50px;
+}
+
+/* Pencarian Detail Jadwal */
+.caridetailjadwal{
+  padding: 0 50px;
+}
+
+input.form-select{
+  background-image: none;
+  padding: 6px 10px;
+}
+
+.form-check-input {
+  width: 25px!important;
+  height: 25px!important;
+  margin-top: 5px!important;
+}
+
+label.form-check-label {
+  padding: 5px 7px;
+}
+
+.mtdpenjualan{
+  display: flex;
+}
+
+/* range slider */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.range-slider {
+  position: relative;
+  width: 714px;
+  height: 10px;
+  border-radius: 15px;
+  background: transparent linear-gradient(90deg, #5f822d 0%, #a5af33 100%) 0% 0%
+    no-repeat padding-box;
+}
+.range-slider .progress {
+  position: absolute;
+  left: 25%;
+  right: 0%;
+  height: 100%;
+  border-radius: 15px;
+  background: transparent linear-gradient(90deg, #e4e7c1 0%, #d39892 100%) 0% 0%
+    no-repeat padding-box;
+}
+.range-slider input[type="range"] {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  -webkit-appearance: none;
+  pointer-events: none;
+  background: none;
+  outline: none;
+}
+.range-slider .range-min::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  width: 61px;
+  height: 35px;
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  border: 2px solid #8b9e30;
+  border-radius: 20px;
+  opacity: 1;
+}
+.range-slider .range-max::-webkit-slider-thumb {
+  pointer-events: auto;
+  -webkit-appearance: none;
+  width: 61px;
+  height: 35px;
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  border: 2px solid #a22a2a;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.rangevalue{
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rangevalue .min-value .numberVal{
+    padding-right: 20px;
+    width: 40%;
+}
+
+.rangevalue .min-value .numberVal{
+  padding-left: 20px;
+  width: 40%;
+}
+
+.min-value.numberVal.mr-5{
+  width: 40%;
+}
+
+.min-value.numberVal.mr-5 .form-control {
+  text-align: center;
+}
+
+.max-value.numberVal{
+  width: 40%;
+}
+
+.max-value.numberVal .form-control {
+  text-align: center;
+}
+
+.caridetailjadwal .submitjadwal {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.tablejadwal{
+  padding: 50px 50px;
+}
+
+.filtertable{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tablelelang{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* agunan */
+.agunan{
+  padding: 50px 50px;
+}
+
+.product {
+  background-color: #29aaff;
 }
